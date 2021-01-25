@@ -18,7 +18,7 @@
                 <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
                     <a href="{{ route('home')}}" class="p-3">Home</a>
                     <a href="{{ route('dashboard')}}" class="p-3">Dashboard</a>
-                    <a href="" class="p-3">Post</a>
+                    <a href="{{ route('posts') }}" class="p-3">Posts</a>
                     </nav>
                     @auth
                     <div class="inline-flex items-center">
